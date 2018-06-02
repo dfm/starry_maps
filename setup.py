@@ -3,8 +3,8 @@ import glob
 import platform
 
 install_requires = ['numpy', 'matplotlib', 'scipy', 'Pillow']
-if platform.system() != "Windows":
-    install_requires.append('healpy')
+# if platform.system() != "Windows":
+#     install_requires.append('healpy')
 
 setup(
     name='starry_maps',
